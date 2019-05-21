@@ -80,7 +80,7 @@
     &.btn-danger{
         @include set-background($danger-color);
         &:hover {
-            background: lighten($danger-color, 5%);
+            background: lighten($danger-color, 5%); 
         }
     }
     &:hover {
