@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <title>PopDevelopment | Register</title>
+    <title>PopDevelopment | Login</title>
 </head>
 
 <body>
@@ -24,29 +24,24 @@
     </nav>
 
     <section class="container">
+        <!--alert-->
+        <div class="alert alert-danger">
+            Invalid Credentials
+        </div>
        <h1 class="large text-primary">
-           Sign Up
+           Sign In
        </h1>
-       <p class="lead"><i class="fas fa-user"></i>Create Your Account</p>
+       <p class="lead"><i class="fas fa-user"></i>Enter to Your Account</p>
        <form action="dashboard.html" class="form">
-            <div class="form-group">
-                <input type="text" placeholder="Name">
-            </div>
             <div class="form-group">
                 <input type="email" placeholder="Email Address">
             </div>
-            <small class="form-text">
-                This Site uses Gravatar, so if you want a profile image use a Gravatar email
-            </small>
             <div class="form-group">
                 <input type="password" placeholder="Password" minlength="6" />
             </div>
-            <div class="form-group">
-                <input type="password" placeholder="Confirm Password" minlength="6"/>
-            </div>
-            <input type="submit" value="Register" class="btn btn-primary" />
+            <input type="submit" value="Login" class="btn btn-primary" />
             <p class="my-1">
-                Already have an account? <a href="login.html">Sign In</a>
+                Don`t have an account? <a href="Register.html">Register</a>
             </p>
        </form>
     </section>
