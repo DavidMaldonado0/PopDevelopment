@@ -1,4 +1,4 @@
-/**   CONTAINER  **/
+/***** container *****/
 
 .container{
     max-width: $max-width;
@@ -9,8 +9,7 @@
     margin-bottom: 3rem;
 }
 
-
-/**   TEXT STYLES   **/
+/***** text styles *****/
 
 .x-large {
     font-size: 4rem;
@@ -45,7 +44,7 @@
 
 
 
-/**   BACKGROUNDS   **/
+/***** backgrounds *****/
 
 .bg {
     &-primary{
@@ -70,7 +69,7 @@
     }
 }
 
-/**   BUTTONS   **/
+/***** buttons *****/
 
 .btn {
     display: inline-block;
@@ -115,7 +114,7 @@
     }
 }
 
-/**      ALERTS     **/
+/***** alerts *****/
 
 .alert{
     padding: 0.8rem;
@@ -139,7 +138,7 @@
 }
 
 
-/**      BADGES     **/
+/***** badges *****/
 
 .badge{
     font-size: 0.8rem;
